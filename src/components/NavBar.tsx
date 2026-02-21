@@ -9,7 +9,7 @@ function NavBar(){
     return(
         <HStack justifyContent='space-between' padding='10px'>
             <Image src={logo} boxSize="60px"/>
-            <Text>Gamers Dashboard</Text>
+            <Text fontSize='2xl'>Gamers Dashboard</Text>
             <ColorModeSwitch/>
         </HStack>
     )
